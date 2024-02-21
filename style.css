@@ -4,33 +4,40 @@
 body {
   padding: 0;
   margin: 0;
-  /* background-color: #F1DBBF; */
+   background-color: #1E3231; 
   justify-content: center;
   display: flex;
   align-items: center;
   flex-direction: column;
+
 }
 .players {
   justify-content: center;
   display: flex;
   border: solid 1px #1E3231;
-  border-radius: 2rem;
+  border-radius: 3rem;
   /* width: 100%;   */
-  background-color: #D0A5C0;
+  background-color: #e3d5ca;
   align-items: center;
-  font-size: 1rem;
+  font-size: 2rem;
   margin-top: 10%;
+  font-family: Monaco;
+
 }
 .players div {
-  padding: 20px;
+  padding: 20px ;
+
+
 }
 
 .players div.active {
-  background-color: #d66a52;
+  background-color: #ee9b00;
   padding: 1rem 1.5rem 1rem 1.5rem;
   text-align: center;
+
   border-radius: 2rem;
   color: white;
+  font-size: 2 rem;
 }
 .game-board {
   margin-top: 1rem;
@@ -65,33 +72,42 @@ body {
   bottom: 0;
   z-index: 99;
   /* background: #C27664; */
-  background: rgba(243, 146, 146, 0.24);
+  background: rgba(22, 146, 146, 0.24);
   /* background: rgba(0, 0, 0, 0.5); */
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
 .result h1 {
   color: #fff;
   font-size: 50px;
-  background: rgba(178, 50, 22, 0.598);
+  background: #ca6702;
   padding: 15px;
-  border-radius: 3rem;
+  border-radius: 2rem;
+  font-family: Monaco;
+
 }
 .result button {
   padding: 1rem 2rem;
-  background: #d66a52;
-  border-radius: 3rem;
+  background: #d6ccc2;
+  border-radius: 2rem;
   border: none;
   font-size: 20px;
-  color: white;
+  color: #1b263b;
   cursor: pointer;
+  opacity: 80%;
+  font-family: Monaco;
+  
 }
 .inactive {
   display: none;
 }
 .disabled {
   pointer-events: none;
+}
+.result_btn: hover{
+  opacity: 100%;
 }

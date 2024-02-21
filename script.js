@@ -45,14 +45,14 @@ cellElements.forEach((cell) => {
         // console.log(currentPlayer + "is"+"WINNER");
         // result.classList.remove("inactive");
         addInactive();
-        result_text.innerText= currentPlayer + " is win the Game";
+        result_text.innerText= currentPlayer + " wins";
 
 
     }else if(isDraw()){
         // console.log("Draw the Game!!");
         // result.classList.remove("inactive");
         addInactive();
-        result_text.innerText=  "Draw the Game!!";
+        result_text.innerText=  "No one wins";
     }else{
     swapPlayer();
     }
